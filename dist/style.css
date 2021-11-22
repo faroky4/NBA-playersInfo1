@@ -1,0 +1,27 @@
+body {
+    background-color:grey;
+}
+.container {
+    background-attachment: fixed;
+}
+.form-group {
+    
+    text-align: center;
+    margin-top: 15px;
+}
+
+#player-info {
+    display: grid;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+}
+#team-info {
+    background-color: lightskyblue;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
